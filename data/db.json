@@ -1,0 +1,17 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "name": "This is a deck",
+      "description": "Hello to my new deck"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "front": "This is a card! Front.",
+      "back": "This is the card back.",
+      "deckId": 1
+    }
+  ]
+}
