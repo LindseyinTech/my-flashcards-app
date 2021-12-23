@@ -9,7 +9,7 @@ This project focused on utilizing React hooks, reusable components, and passing 
 
 ![deployed](https://gyazo.com/58d191cd78e90b02eb260b50ef1b5f9a.png)
 
-To view this project on the web, click [here]()
+To view this project on the web, click [here](https://build-a-deck.vercel.app/)
 
 This project uses React and Bootstrap and was deployed with Heroku.
 

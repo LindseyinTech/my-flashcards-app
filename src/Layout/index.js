@@ -23,8 +23,7 @@ function Layout() {
       try{
         const decksData = await listDecks(abortController.signal)
         setDecks(decksData);
-
-      }catch(error){
+      } catch(error){
         if (error.name !== "AbortError"){
           throw error;
         }
