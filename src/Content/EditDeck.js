@@ -50,10 +50,10 @@ function EditDeck({ decks, setDecks }) {
       </div>
 
       <div>
-        <h1>Edit Deck</h1>
+        <h1 className="text-white">Edit Deck</h1>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name" className="text-white">Name</label>
             <input
               type="text"
               className="form-control"
@@ -65,7 +65,7 @@ function EditDeck({ decks, setDecks }) {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="description">Description</label>
+            <label htmlFor="description" className="text-white">Description</label>
             <textarea
               className="form-control"
               id="description"

@@ -28,10 +28,10 @@ export default function Form({
         </nav>
       </div>
       <div>
-        <h1>{title}</h1>
+        <h1 className="text-white">{title}</h1>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="front">Front</label>
+            <label htmlFor="front" className="text-white">Front</label>
             <textarea
               className="form-control"
               id="front"
@@ -43,7 +43,7 @@ export default function Form({
             ></textarea>
           </div>
           <div className="form-group">
-            <label htmlFor="back">Back</label>
+            <label htmlFor="back" className="text-white">Back</label>
             <textarea
               className="form-control"
               id="back"

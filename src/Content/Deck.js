@@ -58,8 +58,8 @@ function Deck({ decks, setDecks }) {
       </div>
 
       <div>
-        <h3>{deck.name}</h3>
-        <p>{deck.description}</p>
+        <h3 className="text-white">{deck.name}</h3>
+        <p className="text-white">{deck.description}</p>
         <Link to={`/decks/${deck.id}/edit`} class="btn btn-secondary">
           Edit
         </Link>
@@ -76,7 +76,7 @@ function Deck({ decks, setDecks }) {
         >
           Delete
         </button>
-        <h2>Cards</h2>
+        <h2 className="text-white">Cards</h2>
         {deck.cards.map((card, index) => {
           return (
             <div className="card">

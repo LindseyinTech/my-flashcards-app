@@ -67,7 +67,7 @@ function Study({ decks }) {
   return (
     <div>
       <Navigation deck={deck} />
-      <h1>Study: {deck.name}</h1>
+      <h1 className="text-white">Study: {deck.name}</h1>
       <div className="card w-75">
         <div className="card-body">
           <h5 className="card-title">
