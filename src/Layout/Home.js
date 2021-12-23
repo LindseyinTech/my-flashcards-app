@@ -5,8 +5,6 @@ import { deleteDeck, listDecks } from "../utils/api/index";
 
 function Home ({decks, setDecks}){
 
-  const [cardsLength, setCardsLength] = useState(0)
-
 async function deleteHandler(deckId){
       await deleteDeck(deckId)
        setDecks((currentDecks) =>
