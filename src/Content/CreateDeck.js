@@ -46,7 +46,7 @@ function CreateDeck({ decks, setDecks }) {
             <label htmlFor="name" className="text-white">Name</label>
             <input
               type="text"
-              className="form-control text-white"
+              className="form-control"
               id="name"
               name="name"
               placeholder="Deck Name"
